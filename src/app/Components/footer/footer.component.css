@@ -14,18 +14,12 @@
     font-size: 1.4rem;
 }
 
-.layout_footer_logo {
-
-}
-
 .social_media_bar_footer {
     display: inline-block;
     list-style: none;  
 }
 
 .btn_social_footer {
-    width: 30px;
-    height: 30px;
     margin: 10px 10px;
     border-style: none;
 }
