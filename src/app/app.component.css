@@ -1,0 +1,170 @@
+/*----------------------------------*\
+************ NAVBAR STYLES ***********
+\*----------------------------------*/
+
+/*------- HEADER TOP -------*/
+
+.layout_header_top {
+    height: 40px;
+    width: 100%;
+    background-color: var(--primary-color);
+    text-align: right;
+}
+
+/*------- HEADER BOTTOM -------*/
+
+.layout_header_bottom {
+    width: 100%;
+    background-color: white;
+}
+
+.btn_social_header_top {
+    padding: 8px 0px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+@media (max-width: 364px){
+    .btn_social_header_top {
+        margin-right: 12px;
+    }
+}
+
+.btn_social_header_top_last {
+    margin-right: 30px;
+}
+
+@media (max-width: 364px){
+    .btn_social_header_top_last {
+        margin-right: 20px;
+    }
+}
+
+.btn_language {
+    width: 24px;
+    height: 24px;
+    padding: 8px 0px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.btn_menu {
+    padding: 8px 20px;
+    color: var(--gray1);
+    background-color: #ffffff;
+    font-size: 1.6rem;
+}
+
+.btn_menu:hover, .btn_menu:focus{
+    background-color: #ffffff !important;
+    color: var(--primary-color); 
+    text-decoration: none;
+}
+
+.btn_menu_active {
+    padding: 8px 20px;
+    color: var(--tertiary-color);
+    background-color: white;
+    font-size: 1.6rem;
+}
+
+.btn_menu_active:hover, .btn_menu_active:focus{
+    background-color: #ffffff !important;
+    color: var(--primary-color); 
+    text-decoration: none;
+}
+
+/*------- ANIMATION -------*/
+
+/* --- Left to Right --- */
+.anime_left_to_right {
+    opacity: 0;
+    transform: translate3d(-100px, 0, 0);
+    transition: 1.0s;
+}
+.anime_start_left_to_right {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+/* --- Right to Left --- */
+.anime_right_to_left {
+    opacity: 0;
+    transform: translate3d(100px, 0, 0);
+    transition: 1.0s;
+}
+
+.anime_start_right_to_left {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+/* --- Bottom to Top --- */
+.anime_bottom_to_top {
+    opacity: 0;
+    transform: translate3d(0, 100px, 0);
+    transition: 1.0s;
+}
+
+.anime_start_bottom_to_top {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+/* --- Top to Bottom --- */
+.anime_top_to_bottom {
+    opacity: 0;
+    transform: translate3d(0, -100px, 0);
+    transition: 1.0s;
+}
+
+.anime_start_top_to_bottom {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+/*----------------------------------*\
+************ FOOTER STYLES ***********
+\*----------------------------------*/
+
+.layout_footer {
+    background-color: var(--primary-color);
+    border-top: 10px solid var(--gray1);
+    text-align: center; 
+}
+
+.layout_footer_menu {
+    display: inline-block !important;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.social_media_bar_footer {
+    display: inline-block;
+    list-style: none;  
+}
+
+.btn_social_footer {
+    margin: 10px 10px;
+    border-style: none;
+}
+
+.footer_menu_item {
+    display: inline-block !important;
+    list-style: none;
+    margin: 0px 10px;
+    color: white;
+}
+
+.footer_menu_item:hover, .footer_menu_item:focus {    
+    text-decoration: none;
+    color: var(--gray3);
+}
+
+.footer_text {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    color: white;
+}

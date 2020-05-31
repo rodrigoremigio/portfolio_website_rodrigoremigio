@@ -22,11 +22,7 @@ body {
     --gray3: #f2f2f2;
   }
 
-/*----- PAGE SERVICES -----*/
-.layout_services {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+
 
 /*----- BUTTONS -----*/
 
@@ -52,52 +48,6 @@ body {
 .text_btn_primary:hover, .text_btn_primary:focus {
     color: white;
 }
-
-
-
-/*----- SERVICE PAGE BOX -----*/
-.service_page_box_green {
-    margin: 0px 0px;
-    padding: 10px;
-    background-color: var(--primary-color);
-}
-
-.service_page_box_img01 {
-    width: 540px;
-    height: 284px;
-    background-color: var(--gray1);
-}
-
-.header_service_page_box {
-    padding-top: 15px;
-    padding-bottom: 0px;
-    text-align: center;
-}
-
-.title_service_page_box {
-    margin: 15px 0px;
-    font-size: 2.6rem;
-    text-align: center;
-    color: white;
-}
-
-.text_service_page_box {
-    margin: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    line-height: 2.2rem;
-    color: white;
-    font-size: 1.6rem;
-}
-
-/*----- PORTFOLIO -----*/
-.portfolio_box_web {
-    margin: 20px 0px;
-}
-
-
 
 /*----------------------------------*\
 *************** HOVERS ***************

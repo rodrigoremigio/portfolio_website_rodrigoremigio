@@ -149,6 +149,38 @@
     background-color: var(--primary-color);
 }
 
+/*------- SERVICE BOX -------*/
+.service_box {
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: var(--gray3);
+}
+
+.header_service_box {
+    padding-top: 15px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.title_service_box {
+    margin: 15px 0px;
+    font-size: 3.0rem;
+    text-align: center;
+    color: var(--gray2);
+}
+
+.text_service_box {
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    line-height: 2.2rem;
+    color: #999999;
+    font-size: 1.8rem;
+}
+
+
 /*----- Portfolio HOME -----*/
 .layout_carousel {
     margin: 20px 0px;
@@ -167,15 +199,6 @@
     font-size: 6.0rem;
     font-weight: 600;
 }
-/*
-@media (max-width: 5000px){
-    #text1_img_talk_to_me{
-		margin-top: 400px;
-    }
-    #text2_img_talk_to_me{
-		margin-top: 420px;
-    }
-}*/
 
 @media (max-width: 1199px){
     #text1_img_talk_to_me{
@@ -239,34 +262,4 @@
         margin-top: 100px;
         font-size: 2.2rem;
     }
-}
-
-.service_box {
-    margin: 20px 0px;
-    padding: 10px;
-    background-color: var(--gray3);
-}
-
-.header_service_box {
-    padding-top: 15px;
-    padding-bottom: 0px;
-    text-align: center;
-}
-
-.title_service_box {
-    margin: 15px 0px;
-    font-size: 3.0rem;
-    text-align: center;
-    color: var(--gray2);
-}
-
-.text_service_box {
-    margin: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    line-height: 2.2rem;
-    color: #999999;
-    font-size: 1.8rem;
 }
