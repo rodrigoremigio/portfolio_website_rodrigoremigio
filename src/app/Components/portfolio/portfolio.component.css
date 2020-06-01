@@ -51,3 +51,13 @@
     height: 100px;
     background-color: var(--primary-color);
 }
+
+/*------- CUSTOMERS -------*/
+.customer_box {
+    text-align: center; 
+}
+
+.img_customer_box {
+    width: 100%;
+    text-align: center;
+}
