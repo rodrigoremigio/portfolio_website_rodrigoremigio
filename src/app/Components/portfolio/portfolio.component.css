@@ -52,6 +52,38 @@
     background-color: var(--primary-color);
 }
 
+/*------- UIUX Portfolio -------*/
+
+.uiux_portfolio_card {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 20px rgb(226, 226, 226);
+}
+
+.header_portfolio_card {
+    text-align: center; 
+}
+
+.footer_portfolio_card {
+    margin-top: 20px;
+    color: var(--gray1);
+}
+
+.text_portfolio_card {
+    padding-left: 8px;
+    font-size: 1.6rem;
+}
+
+.link_portfolio_card {
+    text-decoration: none;
+    color: var(--gray1) !important;
+}
+
+.link_portfolio_card:hover, .link_portfolio_card:focus {
+    text-decoration: none;
+    color: var(--primary-color) !important;
+}
+
 /*------- CUSTOMERS -------*/
 .customer_box {
     text-align: center; 
