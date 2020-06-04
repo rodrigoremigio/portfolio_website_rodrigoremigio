@@ -1,1 +1,115 @@
-<p>contato works!</p>
+<!-- Título da Página -->
+<div class="layout_section_page_title">
+    <div class="row" style="margin: 0px;">
+        <div class="container">
+            <div class="col-sm-12">
+                <h1 class="layout_page_title">CONTATO</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Serviços -->
+<section class="layout_contact">
+
+    <div class="container">
+        <h1 class="layout_contact_text my-5" >Onde você pode me encontrar!</h1>
+        <div class="row justify-content-center">
+            <a class="" href="#" title="Instagram Rodrigo Remígio" rel="noopener" target="_blank">
+                <img class="m-5" width="30px" src="../../../assets/images/ic_instagram_green.svg" alt="ic_instagram_green">
+            </a>
+            <a class="" href="#" title="Instagram Rodrigo Remígio" rel="noopener" target="_blank">
+                <img class="m-5" width="30px" src="../../../assets/images/ic_linkedin_green.svg" alt="ic_linkedin_green">
+            </a>
+            <a class="" href="#" title="Instagram Rodrigo Remígio" rel="noopener" target="_blank">
+                <img class="m-5" width="30px" src="../../../assets/images/ic_twitter_green.svg" alt="ic_twitter_green">
+            </a>
+            <a class="" href="#" title="Instagram Rodrigo Remígio" rel="noopener" target="_blank">
+                <img class="m-5" width="30px" src="../../../assets/images/ic_dribble_green.svg" alt="ic_dribble_green">
+            </a>
+            <a class="" href="#" title="Instagram Rodrigo Remígio" rel="noopener" target="_blank">
+                <img class="m-5" width="30px" src="../../../assets/images/ic_github_green.svg" alt="ic_github_green">
+            </a>
+            <a class="" href="#" title="Instagram Rodrigo Remígio" rel="noopener" target="_blank">
+                <img class="m-5" width="30px" src="../../../assets/images/ic_whatsapp_green.svg" alt="ic_whatsapp_green">
+            </a>
+        </div>
+    </div>
+
+    <div class="">
+        <h1 class="layout_contact_text my-5" >Vamos trabalhar juntos?</h1>
+        <div class="container d-block justify-content-center">
+
+            <form action="#" method="post" enctype="multipart/form-data">
+            <div class="row">
+                <div class="enter-group col-sm-4">
+                    <label for="name" class="title_field_form" style="margin-bottom: 0px;">Nome:</label>
+                    <input id="name" name="name" type="text" class="field_form" required>
+                </div>
+                <div class="enter-group col-sm-4">
+                    <label for="email" class="title_field_form" style="margin-bottom: 0px;">E-mail:</label>
+                    <input id="email" name="email" type="email" class="field_form" required>
+                </div>
+                <div class="enter-group">
+                    <span id="erroremail"></span>
+                </div>
+                <div class="enter-group col-sm-4">
+                    <label for="telefone" class="title_field_form" style="margin-bottom: 0px;">Telefone:</label>
+                    <input id="telefone" name="telefone" maxlength="15" type="text" class="field_form" onkeypress="return onlyNumbers(event)" required>
+                </div>
+            </div>
+                <div class="enter-group">
+                    <label for="mensagem" class="title_field_form" style="margin-bottom: 0px;">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" type="text" class="form-control field_form" required></textarea>
+                </div>
+                <div style="text-align: center;">
+                    <button id="enviar" type="button" onclick="enviarEmail()" class="btn_form hvr-bounce-to-right">Enviar</button>
+                    <div id="loading-spinner" class="spinner-border text-dark" role="status" hidden>
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                </div>
+                <div class="modal fade" id="messageSent" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="layout_title_modal" id="exampleModalLongTitle">Mensagem Enviada</h2>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" style="font-size: 2rem;">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="layout_paragraph_modal">Obrigado por entrar em contato! Em breve </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn_form" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="camposObrigatoriosNaoPreenchidos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="layout_title_modal" id="camposObrigatoriosNaoPreenchidosTitle">Campos obrigatórios não preenchidos</h2>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" style="font-size: 2rem;">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="layout_paragraph_modal">Os seguintes campos são obrigatórios:</p>
+                                <p class="layout_paragraph_modal">Nome, E-mail, Telefone, Detalhes das referências</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn_form" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </form>
+
+        </div>
+    </div>
+
+</section>

@@ -14,7 +14,7 @@
 
 /*------- SECTIONS -------*/
 
-.layout_service_text{
+.layout_portfolio_text{
 	font-size: 4.8rem;
 	color: #33cc99 !important;
     font-weight: 200;
@@ -22,12 +22,12 @@
 }
 
 @media (max-width: 767px){
-    .layout_service_text{
+    .layout_portfolio_text{
         font-size: 4.0rem;
     }
 }
 @media (max-width: 575px){
-    .layout_service_text{
+    .layout_portfolio_text{
         font-size: 3.0rem;
     }
 }

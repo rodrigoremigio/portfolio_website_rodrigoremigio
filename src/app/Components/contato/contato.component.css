@@ -1,3 +1,103 @@
 /*----------------------------------*\
 *********** CONTATO STYLES ***********
 \*----------------------------------*/
+
+.layout_contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.custom-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*------- SECTIONS -------*/
+
+.layout_contact_text{
+	font-size: 3.5rem;
+	color: #33cc99 !important;
+    font-weight: 200;
+	text-align: center;	
+}
+
+@media (max-width: 767px){
+    .layout_contact_text{
+        font-size: 3.0rem;
+    }
+}
+@media (max-width: 575px){
+    .layout_contact_text{
+        font-size: 2.6rem;
+    }
+}
+
+.layout_page_title{
+	font-size: 4.8rem;
+	color: white !important;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 25px;	
+}
+
+@media (max-width: 767px){
+    .layout_page_title{
+        font-size: 4.0rem;
+        margin-top: 30px;
+    }
+}
+
+.layout_section_page_title {
+    height: 100px;
+    background-color: var(--primary-color);
+}
+
+
+.enter-group {
+    margin-bottom: 15px;
+}
+
+.title_field_form {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.field_form{
+    display: block !important;
+    width: 100% !important;
+    height: 3.5rem;
+    padding: 0px !important;
+    border-top: 0px solid white !important;
+    border-left: 1px solid var(--gray1) !important;
+    border-right: 0px solid white !important;
+    border-bottom: 1px solid var(--gray1) !important;
+    border-radius: 5px !important;
+    font-size: 1.4rem !important;
+}
+
+#mensagem {
+    height: 120px;
+}
+
+.btn_form {
+    border: none;
+    display: inline-block;
+    background-color: var(--primary-color) !important;
+    padding: 6px 30px;
+    color: white;
+    font-size: 2.0rem;
+    text-decoration: none !important;
+}
+
+.layout_title_modal {
+    font-weight: 700;
+    font-size: 2.0rem;
+}
+
+.layout_paragraph_modal {
+    font-size: 1.6rem;
+    text-indent: 30px;
+    padding-bottom: 0.5rem;
+    text-align: justify;
+}
