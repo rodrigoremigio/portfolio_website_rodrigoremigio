@@ -47,11 +47,12 @@
     </div>
 </div>
     
-<nav class="navbar navbar-fixed-top navbar-expand-md layout_header_bottom" style="box-shadow: 0px 0px 15px rgb(5, 163, 129);">
+<nav class="layout_header_bottom navbar navbar-fixed-top navbar-expand-md" style="box-shadow: 0px 0px 15px rgb(5, 163, 129);">
     <div class="container">
         <a class="navbar-brand h1 mb-0" routerLink='home' title="Rodrigo Remígio">
             <img src="../assets/images/symbol_rr.svg" height="65px" alt="Logotipo Rodrigo Remígio"/>
         </a>
+        
         <div class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
             <img src="../assets/images/buttonmenu.png">
         </div>
@@ -147,3 +148,9 @@
         </div>
     </div>
 </footer>
+<script>
+    var hamburger = document.querySelector(".hamburger");
+    hamburger.addEventListener("click", function() {
+        hamburger.classList.toggle("is-active");
+    });
+  </script>
