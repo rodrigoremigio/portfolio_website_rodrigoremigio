@@ -274,14 +274,3 @@
         font-size: 2.0rem;
     }
 }
-
-.imgteste {
-    width: 35px;
-    height: 35px;
-    background-image: url(../../../assets/images/buttonmenu.png);
-    transition: all .7s ease-in-out;
-}
-
-.imgteste:hover {
-    background-image: url(../../../assets/images/buttonmenu2.png);
-}

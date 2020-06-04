@@ -8,7 +8,7 @@ import { ContatoComponent } from './Components/contato/contato.component'
 
 const routes: Routes = [
   {
-    path:'home',
+    path:'',
     component: HomeComponent
   },
   {
