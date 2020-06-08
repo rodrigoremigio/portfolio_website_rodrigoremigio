@@ -42,11 +42,34 @@ debounce = function(func, wait, immediate) {
 (function() {
     var $target = $('.anime_left_to_right'),
         animationClass = 'anime_start_left_to_right';
-        offset = $(window).height();
+        offset = $(window).height() * 9/10;
 
     function animeScroll() {
         var documentTop = $(document).scrollTop();
-        console.log(documentTop);
+        
+        $target.each(function(){
+            var itemTop = $(this).offset().top;
+            if(documentTop > itemTop - offset) {
+                $(this).addClass(animationClass);
+            } else {
+                $(this).removeClass(animationClass);
+            }
+        })
+    }
+    animeScroll();
+    $(document).scroll(debounce(function(){
+        animeScroll();
+    }, 200));
+}());
+
+// LEFT TO RIGHT AND ROTATE
+(function() {
+    var $target = $('.anime_rotate'),
+        animationClass = 'anime_start_rotate';
+        offset = $(window).height() * 9/10;
+
+    function animeScroll() {
+        var documentTop = $(document).scrollTop();
         
         $target.each(function(){
             var itemTop = $(this).offset().top;
@@ -67,7 +90,7 @@ debounce = function(func, wait, immediate) {
 (function() {
     var $target = $('.anime_bottom_to_top'),
         animationClass = 'anime_start_bottom_to_top';
-        offset = $(window).height();
+        offset = $(window).height() * 9/10;
 
     function animeScroll() {
         var documentTop = $(document).scrollTop();
@@ -91,7 +114,7 @@ debounce = function(func, wait, immediate) {
 (function() {
     var $target = $('.anime_right_to_left'),
         animationClass = 'anime_start_right_to_left';
-        offset = $(window).height() * 3/4;
+        offset = $(window).height() * 9/10;
 
     function animeScroll() {
         var documentTop = $(document).scrollTop();
@@ -115,7 +138,7 @@ debounce = function(func, wait, immediate) {
 (function() {
     var $target = $('.anime_top_to_bottom'),
         animationClass = 'anime_start_top_to_bottom';
-        offset = $(window).height() * 3/4;
+        offset = $(window).height() * 9/10;
 
     function animeScroll() {
         var documentTop = $(document).scrollTop();
