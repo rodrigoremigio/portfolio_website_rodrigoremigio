@@ -1,6 +1,6 @@
 // Animated Scroll (Menu)
 
-$('ul a').click(function(e){
+$('.scrollable').click(function(e){
     e.preventDefault();
     var id = $(this).attr('href'),
         targetOffset = $(id).offset().top,
@@ -11,7 +11,7 @@ $('ul a').click(function(e){
     }, 800)
 });
 
-$('div a').click(function(e){
+$('.scrollable').click(function(e){
     e.preventDefault();
     var id = $(this).attr('href'),
         targetOffset = $(id).offset().top;

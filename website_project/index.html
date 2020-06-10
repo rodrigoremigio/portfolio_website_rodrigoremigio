@@ -93,16 +93,16 @@
                     
                     <ul class="navbar-nav ml-auto" style="text-align: right;">
                         <li class="nav-item anime_top_to_bottom">
-                            <a class="btn_menu hvr-underline-from-center" href="#servicos">Serviços</a>
+                            <a class="btn_menu hvr-underline-from-center scrollable" href="#servicos">Serviços</a>
                         </li>
                         <li class="nav-item anime_bottom_to_top">
-                            <a class="btn_menu hvr-underline-from-center" href="#portfolio">Portfólio</a>
+                            <a class="btn_menu hvr-underline-from-center scrollable" href="#portfolio">Portfólio</a>
                         </li>
                         <li class="nav-item anime_top_to_bottom">
-                            <a class="btn_menu hvr-underline-from-center" href="#sobre">Sobre</a>
+                            <a class="btn_menu hvr-underline-from-center scrollable" href="#sobre">Sobre</a>
                         </li>
                         <li class="nav-item anime_bottom_to_top">
-                            <a class="btn_menu hvr-underline-from-center" href="#contato">Contato</a>
+                            <a class="btn_menu hvr-underline-from-center scrollable" href="#contato">Contato</a>
                         </li>
                     </ul>    
                 </div>
@@ -590,19 +590,19 @@
                             </div>
                             <div class="enter-group col-sm-4">
                                 <label for="email" class="title_field_form" style="margin-bottom: 0px;">E-mail:</label>
-                                <input id="email" name="email" type="email" class="field_form" required>
+                                <input id="email" name="email" type="email" class="field_form">
                             </div>
                             <div class="enter-group">
                                 <span id="erroremail"></span>
                             </div>
                             <div class="enter-group col-sm-4">
-                                <label for="telefone" class="title_field_form" style="margin-bottom: 0px;">Telefone:</label>
-                                <input id="telefone" name="telefone" maxlength="15" type="text" class="field_form" onkeypress="return onlyNumbers(event)" required>
+                                <label for="phone" class="title_field_form" style="margin-bottom: 0px;">Telefone:</label>
+                                <input id="phone" name="telefone" maxlength="15" type="text" class="field_form" onkeypress="return onlyNumbers(event)">
                             </div>
                         </div>
                             <div class="enter-group">
-                                <label for="mensagem" class="title_field_form" style="margin-bottom: 0px;">Mensagem:</label>
-                                <textarea id="mensagem" name="mensagem" type="text" class="form-control field_form" required></textarea>
+                                <label for="message" class="title_field_form" style="margin-bottom: 0px;">Mensagem:</label>
+                                <textarea id="message" name="mensagem" type="text" class="form-control field_form" required></textarea>
                             </div>
                             <div style="text-align: center;">
                                 <button id="enviar" type="button" onclick="enviarEmail()" class="btn_form hvr-bounce-to-right">Enviar</button>
@@ -620,7 +620,7 @@
                                             </button>
                                         </div>
                                         <div class="modal-body">
-                                            <p class="layout_paragraph_modal">Obrigado por entrar em contato! Em breve </p>
+                                            <p class="layout_paragraph_modal">Obrigado por entrar em contato! Em breve retornarei! </p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn_form" data-dismiss="modal">Fechar</button>
@@ -640,7 +640,7 @@
                                         </div>
                                         <div class="modal-body">
                                             <p class="layout_paragraph_modal">Os seguintes campos são obrigatórios:</p>
-                                            <p class="layout_paragraph_modal">Nome, E-mail, Telefone, Detalhes das referências</p>
+                                            <p class="layout_paragraph_modal">Nome, E-mail, Telefone e Mensagem.</p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn_form" data-dismiss="modal">Fechar</button>
@@ -704,16 +704,16 @@
                     <div class="col-md-6">
                         <ul style="padding: 0px;" class="layout_footer_menu">
                             <li class="hvr-float">
-                                <a class="footer_menu_item" href="#servicos">Serviços</a>
+                                <a class="footer_menu_item scrollable" href="#servicos">Serviços</a>
                             </li>
                             <li class="hvr-float">
-                                <a class="footer_menu_item" href="#portfolio">Portfólio</a>
+                                <a class="footer_menu_item scrollable" href="#portfolio">Portfólio</a>
                             </li>
                             <li class="hvr-float">
-                                <a class="footer_menu_item" href="#sobre">Sobre</a>
+                                <a class="footer_menu_item scrollable" href="#sobre">Sobre</a>
                             </li>
                             <li class="hvr-float">
-                                <a class="footer_menu_item" href="#contato">Contato</a>
+                                <a class="footer_menu_item scrollable" href="#contato">Contato</a>
                             </li>
                         </ul>    
                     </div>
@@ -748,6 +748,8 @@
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/back-to-top.js"></script>
         <script type="text/javascript" src="js/scroll.js"></script>
+        <script type="text/javascript" src="js/form.js"></script>
+        <script type="text/javascript" src="js/smtp.js"></script>
+        <script type="text/javascript" src="js/enviar-email.js"></script>
     </body>
-
 </html>
