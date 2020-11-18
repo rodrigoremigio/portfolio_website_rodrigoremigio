@@ -16,8 +16,8 @@ async function enviarEmail() {
     $('#loading-spinner').removeAttr('hidden');
 
     Email.send({
-        /*SecureToken : "ebab4c50-ed1d-4d4d-920c-583ebc020dee",*/
-        Host: 'smtp.elasticemail.com',
+        /*SecureToken : "a501e209-9aa9-4d12-b1d8-b73c6ee7ce24",*/
+        Host: 'smtp25.elasticemail.com',
         Username: 'rodrigoptfb@gmail.com',
         Password: 'EA46A3AADC4721156163A2C8C50732822FC0',
         To : 'rodrigo.brq@gmail.com',

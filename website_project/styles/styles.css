@@ -14,7 +14,7 @@ body {
 /*------- COLORS -------*/
 
 :root {
-    --primary-color: #33cc99;
+    --primary-color: #000000;
     --secondary-color: #71e6bf;
     --tertiary-color: #35DB90;
     --gray1: #999999;
@@ -29,7 +29,7 @@ body {
 /*------- HEADER TOP -------*/
 
 .layout_header_top {
-    height: 30px;
+    height: 36px;
     width: 100%;
     background-color: var(--primary-color);
     text-align: right;
@@ -49,7 +49,7 @@ body {
 
 @media (max-width: 390px){
     .btn_social_header_top {
-        margin-right: 12px;
+        margin-right: 20px;
     }
 }
 
@@ -330,6 +330,27 @@ body {
     font-size: 1.8rem;
 }
 
+/*------------------------------------*\
+*********** INTERESTED STYLES **********
+\*------------------------------------*/
+
+.layout_section_title_black{
+	font-size: 4.0rem;
+	color: white !important;
+    font-weight: 300;
+	text-align: center;	
+}
+
+.interested {
+    padding: 50px 0px;
+    background-color: var(--primary-color);
+}
+
+.interested_arrow {
+    padding-top: 15px;
+    padding-bottom: 0px;
+    text-align: center;
+}
 
 /*----------------------------------*\
 ********** PORTFOLIO STYLES **********
@@ -402,10 +423,6 @@ body {
     margin-top: 10px;
 }
 
-._gray {
-    color: var(--gray1) !important;
-}
-
 .link_portfolio_card {
     text-decoration: none;
     color: var(--gray1) !important;
@@ -456,7 +473,7 @@ body {
 
 .text_btn_primary {
     color: white;
-    font-size: 1.6rem;
+    font-size: 2.0rem;
     text-decoration: none !important;
 }
 
@@ -475,12 +492,12 @@ body {
 
 .layout_about_text {
     font-size: 3rem;
-	color: var(--gray1) !important;
+	color: var(--primary-color) !important;
     font-weight: 400;
     text-align: center;
     display: block;
     padding-bottom: 30px;
-    background: url(../images/line_green.svg) no-repeat center 50px;
+    background: url(../images/line_gray.svg) no-repeat center 50px;
     background-size: 50px 3px
 }
 
