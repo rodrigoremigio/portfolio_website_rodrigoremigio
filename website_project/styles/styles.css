@@ -81,19 +81,7 @@ body {
 }
 
 .layout_logo {
-    height: 65px;
-}
-
-@media (max-width: 767px){
-    .layout_logo {
-        height: 55px;
-    }
-}
-
-@media (max-width: 575px){
-    .layout_logo {
-        height: 50px;
-    }
+    height: 50px;
 }
 
 @media (max-width: 450px){
@@ -120,7 +108,7 @@ body {
 \*-----------------------------------*/
 
 .main_banner{
-    margin-top: 105px;
+    margin-top: 100px;
     margin-bottom: 60px;
 }
 
@@ -138,6 +126,13 @@ body {
 .layout_section_home {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+@media (max-width: 575px){
+    .layout_section_home {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
 
 .layout_section_title{
@@ -368,7 +363,7 @@ body {
 
 .layout_about_paragraph {
     font-size: 1.8rem;
-	color: var(--primary-color) !important;
+	color: var(--gray1) !important;
     font-weight: 300;
     text-align: center;
     display: block;
@@ -376,99 +371,6 @@ body {
 
 .skill_icon, .hobbie_icon {
     margin: 0px 10px;
-}
-
-
-/*----------------------------------*\
-************* TALK TO ME *************
-\*----------------------------------*/
-
-#text1_img_talk_to_me {
-    position: absolute;
-    margin-top: 280px;
-    font-size: 2.5rem;
-}
-
-#text2_img_talk_to_me {
-    position: absolute;
-    margin-top: 300px;
-    font-size: 6.0rem;
-    font-weight: 600;
-}
-
-@media (max-width: 1199px){
-    #text1_img_talk_to_me{
-		margin-top: 220px;
-    }
-    #text2_img_talk_to_me{
-		margin-top: 240px;
-    }
-}
-
-@media (max-width: 991px){
-    #text1_img_talk_to_me{
-        margin-top: 190px;
-        font-size: 2.2rem;
-    }
-    #text2_img_talk_to_me{
-        margin-top: 210px;
-        font-size: 5.0rem;
-    }
-}
-
-@media (max-width: 879px){
-    #text1_img_talk_to_me{
-        margin-top: 170px;
-        font-size: 2.0rem;
-    }
-    #text2_img_talk_to_me{
-        margin-top: 190px;
-        font-size: 4.0rem;
-    }
-}
-
-@media (max-width: 767px){
-    #text1_img_talk_to_me{
-        margin-top: 130px;
-        font-size: 1.8rem;
-    }
-    #text2_img_talk_to_me{
-        margin-top: 150px;
-        font-size: 3.5rem;
-    }
-}
-
-@media (max-width: 575px){
-    #text1_img_talk_to_me{
-        margin-top: 110px;
-        font-size: 1.6rem;
-    }
-    #text2_img_talk_to_me{
-        margin-top: 130px;
-        font-size: 2.8rem;
-    }
-}
-
-@media (max-width: 470px){
-    #text1_img_talk_to_me{
-        margin-top: 80px;
-        font-size: 1.4rem;
-    }
-    #text2_img_talk_to_me{
-        margin-top: 100px;
-        font-size: 2.2rem;
-    }
-}
-
-@media (max-width: 360px){
-    #text1_img_talk_to_me{
-        margin-top: 60px;
-        font-size: 1.4rem;
-    }
-    #text2_img_talk_to_me{
-        margin-top: 80px;
-        font-size: 2.2rem;
-    }
 }
 
 
@@ -530,10 +432,10 @@ body {
     height: 3.5rem;
     padding: 0px !important;
     border-top: 0px solid white !important;
-    border-left: 1px solid var(--gray1) !important;
+    border-left: 2px solid var(--primary-color) !important;
     border-right: 0px solid white !important;
-    border-bottom: 1px solid var(--gray1) !important;
-    border-radius: 5px !important;
+    border-bottom: 2px solid var(--primary-color) !important;
+    border-radius: 0px !important;
     font-size: 1.4rem !important;
 }
 
@@ -570,8 +472,9 @@ body {
 
 .layout_footer {
     background-color: var(--primary-color);
-    border-top: 10px solid var(--gray1);
-    text-align: center; 
+    border-top: 6px solid var(--gray1);
+    text-align: center;
+    padding-top: 10px; 
 }
 
 .layout_footer_menu {

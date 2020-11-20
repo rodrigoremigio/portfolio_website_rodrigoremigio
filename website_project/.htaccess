@@ -1,0 +1,27 @@
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*index\.html\ HTTP/
+RewriteRule ^(([^/]+/)*)index\.html$ http://rodrigoremigio.com/$1 [R=301,L]
+
+# CONFIGURAR UTILIZAÇÃO DO HTTPS
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://rodrigoremigio.com/$1 [R,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\s([^.]+)\.html [NC]
+RewriteRule ^ %1 [R,NC]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html
+
+# OTIMIZAÇÃO DE CACHE
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 1 month"
+
+    ExpiresByType image/x-icon "access plus 3 month"
+    ExpiresByType text/javascript "access plus 3 month"
+    ExpiresByType text/css "access plus 3 month"
+
+    # Medias
+    ExpiresByType image/jpg "access plus 3 month"
+    ExpiresByType image/png "access plus 3 month"
+    ExpiresByType image/svg "access plus 3 month"
+</IfModule>

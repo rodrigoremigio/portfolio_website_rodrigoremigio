@@ -21,7 +21,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="description" content="Rodrigo Remígio - Ui Designer, Mobile Designer, Designer Dráfico, e Programador Web Junior"/>
-        <meta name="keywords" content="UI/UI designer, uiux, UI, UX, designer, adobexd, webdesigner, web, HTML, CSS, JavaScript, developer"/>
+        <meta name="keywords" content="UX/UI designer, ui designer, ux designer, uiux, UI, UX, designer, disign, designer gráfico, graphic designer, adobexd, fidma, sketch, webdesigner, developer"/>
         <link rel="icon" href="images/favicon_rr.svg" type="image/svg">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900&display=swap"/>
         <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css"/>
@@ -101,9 +101,20 @@
         </div>
 
         <!-- Top Banner -->
+        <!--
         <div class="main_banner">
-            <img src="images/main_banner.jpg" width="100%">
-        </div>   
+            <img src="images/main_banner_desktop.jpg" width="100%">
+        </div>
+        -->
+
+        <div class="main_banner">
+            <picture>
+                <source media="(max-width: 480px)" srcset="images/main_banner_mobile.jpg">
+                <source media="(max-width: 768px)" srcset="images/main_banner_tablet.jpg">
+                <source media="(min-width: 769px)" srcset="images/main_banner_desktop.jpg">
+                <img src="images/main_banner_desktop.jpg" alt="desktop" width="100%">
+            </picture>
+        </div>
 
         <!-- Serviços -->
         <section class="layout_section_home" id="servicos">
@@ -191,7 +202,7 @@
             </div>
             <div class="custom-container d-flex justify-content-center">
                 <div class="row p-0">
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2452" data-pause="false">
                             <div class="carousel-inner"> 
@@ -207,7 +218,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3658" data-pause="false">
                             <div class="carousel-inner"> 
@@ -223,7 +234,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2932" data-pause="false">
                             <div class="carousel-inner"> 
@@ -239,7 +250,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="1995" data-pause="false">
                             <div class="carousel-inner"> 
@@ -260,7 +271,7 @@
 
             <div class="pt-3 custom-container d-flex justify-content-center">
                 <div class="row p-0">
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2111" data-pause="false">
                             <div class="carousel-inner"> 
@@ -276,7 +287,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4035" data-pause="false">
                             <div class="carousel-inner"> 
@@ -292,7 +303,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2610" data-pause="false">
                             <div class="carousel-inner"> 
@@ -308,7 +319,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3345" data-pause="false">
                             <div class="carousel-inner"> 
@@ -329,7 +340,7 @@
 
             <div class="pt-3 custom-container d-flex justify-content-center">
                 <div class="row p-0">
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4122" data-pause="false">
                             <div class="carousel-inner"> 
@@ -342,7 +353,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3912" data-pause="false">
                             <div class="carousel-inner"> 
@@ -358,7 +369,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2932" data-pause="false">
                             <div class="carousel-inner"> 
@@ -374,7 +385,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3164" data-pause="false">
                             <div class="carousel-inner"> 
@@ -392,7 +403,7 @@
 
             <div class="pt-3 custom-container d-flex justify-content-center">
                 <div class="row p-0">
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3345" data-pause="false">
                             <div class="carousel-inner"> 
@@ -405,7 +416,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2432" data-pause="false">
                             <div class="carousel-inner"> 
@@ -424,7 +435,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3102" data-pause="false">
                             <div class="carousel-inner"> 
@@ -440,7 +451,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 anime_bottom_to_top">
+                    <div class="pb-4 col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                         <!-- Carrossel -->
                         <div id="carouselSite" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3400" data-pause="false">
                             <div class="carousel-inner"> 
@@ -479,7 +490,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 d-flex justify-content-center mt-5 mb-4">
-                        <img width="300px" src="images/rodrigo_remigio_about_img.png" alt="rodrigo_remigio_about_img">
+                        <img width="100px" src="images/rodrigo_remigio_about_img.png" alt="rodrigo_remigio_about_img">
                     </div>
                 </div>
                 <div class="row d-flex justify-content-center">
@@ -508,13 +519,13 @@
                     <div class="col-sm-12 col-md-5 mx-4 mb-2 anime_bottom_to_top">
                         <h1 class="layout_about_text mt-5">HABILIDADES</h1>
                         <div class="d-flex justify-content-center">
+                            <img class="skill_icon hvr-float" width="25px" src="images/ic_figma_gray.svg" alt="ic_figma" title="Figma">
                             <img class="skill_icon hvr-float" width="25px" src="images/ic_adobe_xd_gray.svg" alt="ic_adobe_xd" title="Adobe Xd">
                             <img class="skill_icon hvr-float" width="25px" src="images/ic_adobe_ps_gray.svg" alt="ic_adobe_ps" title="Adobe Ps">
                             <img class="skill_icon hvr-float" width="25px" src="images/ic_corel_gray.svg" alt="ic_corel" title="CorelDRAW">
                             <img class="skill_icon hvr-float" width="25px" src="images/ic_html_gray.svg" alt="ic_html" title="HTML5">
                             <img class="skill_icon hvr-float" width="25px" src="images/ic_css_gray.svg" alt="ic_css" title="CSS3">
                             <img class="skill_icon hvr-float" width="25px" src="images/ic_js_gray.svg" alt="ic_js" title="JavaScript">
-                            <img class="skill_icon hvr-float" width="25px" src="images/ic_angular_gray.svg" alt="ic_angular" title="Angular">
                         </div>
                     </div>
                 </div>
@@ -524,13 +535,14 @@
                 
 
         <!----- Talk to me ----->
-        <div>
-            <div class="container" style="color: #ffffff;">
-                <a id="text1_img_talk_to_me">Estou disponível para novos desafios,</a>
-                <a id="text2_img_talk_to_me">um café e uma boa conversa!</a>
-            </div>
-            <img src="images/image_talk_to-me.png" width="100%">   
-        </div>
+        <section class="layout_section_home">
+            <picture>
+                <source media="(max-width: 480px)" srcset="images/image_talk_to-me_mobile.jpg">
+                <source media="(max-width: 768px)" srcset="images/image_talk_to-me_tablet.jpg">
+                <source media="(min-width: 769px)" srcset="images/image_talk_to-me_desktop.jpg">
+                <img src="images/image_talk_to-me_desktop.jpg" alt="desktop" width="100%" alt="Fale comigo">
+            </picture>
+        </section>
 
         <!----- Section Title ----->
         <section class="layout_section_home" id="contato">
@@ -548,17 +560,17 @@
                 <div class="container">
                     <h1 class="layout_contact_text mt-5" >Onde você pode me encontrar!</h1>
                     <div class="row justify-content-center mb-3">
-                        <a class="hvr-grow" href="#" title="Instagram Rodrigo Remígio" rel="noopener" target="_blank">
-                            <img class="mb-5 mt-3 mx-5" width="30px" src="images/ic_instagram_black.svg" alt="ic_instagram_black">
+                        <a class="hvr-grow" href="#" title="Instagram" rel="noopener" target="_blank">
+                            <img class="mb-5 mt-3 mx-4" width="30px" src="images/ic_instagram_black.svg" alt="ic_instagram_black">
                         </a>
-                        <a class="hvr-grow" href="#" title="Instagram Rodrigo Remígio" rel="noopener" target="_blank">
-                            <img class="mb-5 mt-3 mx-5" width="30px" src="images/ic_linkedin_black.svg" alt="ic_linkedin_black">
+                        <a class="hvr-grow" href="#" title="LinkedIn" rel="noopener" target="_blank">
+                            <img class="mb-5 mt-3 mx-4" width="30px" src="images/ic_linkedin_black.svg" alt="ic_linkedin_black">
                         </a>
-                        <a class="hvr-grow" href="#" title="Instagram Rodrigo Remígio" rel="noopener" target="_blank">
-                            <img class="mb-5 mt-3 mx-5" width="30px" src="images/ic_github_black.svg" alt="ic_github_black">
+                        <a class="hvr-grow" href="#" title="GitHub" rel="noopener" target="_blank">
+                            <img class="mb-5 mt-3 mx-4" width="30px" src="images/ic_github_black.svg" alt="ic_github_black">
                         </a>
-                        <a class="hvr-grow" href="#" title="Instagram Rodrigo Remígio" rel="noopener" target="_blank">
-                            <img class="mb-5 mt-3 mx-5" width="30px" src="images/ic_whatsapp_black.svg" alt="ic_whatsapp_black">
+                        <a class="hvr-grow" href="#" title="WhatsApp" rel="noopener" target="_blank">
+                            <img class="mb-5 mt-3 mx-4" width="30px" src="images/ic_whatsapp_black.svg" alt="ic_whatsapp_black">
                         </a>
                     </div>
                 </div>
@@ -655,16 +667,6 @@
                             <li class="btn_social_footer social_media_bar_footer hvr-grow">
                                 <a title="LinkedIn" href="https://www.linkedin.com/in/rodrigo-remigio-854094175/" target="_blank">
                                     <img width="20px" src="images/ic_linkedin.svg">
-                                </a>
-                            </li>
-                            <li class="btn_social_footer social_media_bar_footer hvr-grow">
-                                <a title="Twitter" href="#" target="_blank">
-                                    <img width="20px" src="images/ic_twitter.svg">
-                                </a>
-                            </li>
-                            <li class="btn_social_footer social_media_bar_footer hvr-grow">
-                                <a title="Dribble" href="#" target="_blank">
-                                    <img width="20px" src="images/ic_dribble.svg">
                                 </a>
                             </li>
                             <li class="btn_social_footer social_media_bar_footer hvr-grow">

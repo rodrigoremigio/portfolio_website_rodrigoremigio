@@ -1,0 +1,9 @@
+Sitemap: https://rodrigoremigio.com/sitemap.xml
+
+User-agent: *
+
+Allow: /https://rodrigoremigio.com/
+
+Disallow: /images/
+Disallow: /styles/
+Disallow: /js/
