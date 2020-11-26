@@ -186,7 +186,7 @@ body {
     padding-bottom: 10px;
     text-align: center;
     line-height: 2.2rem;
-    color: #999999;
+    color: var(--gray2);
     font-size: 1.8rem;
 }
 
@@ -380,7 +380,7 @@ body {
 
 .layout_contact_text{
 	font-size: 3.5rem;
-	color: var(--gray1);
+	color: var(--primary-color);
     font-weight: 200;
 	text-align: center;	
 }
