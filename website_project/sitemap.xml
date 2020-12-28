@@ -9,7 +9,18 @@
 
 <url>
   <loc>https://rodrigoremigio.com/</loc>
-  <lastmod>2020-11-20T15:00:39+00:00</lastmod>
+  <lastmod>2020-12-28T11:53:38+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://rodrigoremigio.com/en</loc>
+  <lastmod>2020-12-28T11:53:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rodrigoremigio.com/2020_Rodrigo_Rem%C3%ADgio_CV_Portf%C3%B3lio_Geral.pdf</loc>
+  <lastmod>2020-11-25T19:39:31+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
